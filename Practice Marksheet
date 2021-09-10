@@ -1,0 +1,52 @@
+void main() {
+  var name ="name:Abdul Samad";
+  print (name);
+  var no ="Roll NO.7558";
+  print (no);
+  var marksheet = "                (Marksheet)";
+  print (marksheet);
+  var so="S.no   Subjects     Total Marks   Obtained Marks   Result";
+  print (so);  
+  
+  var so1 ="1      English     100            85               Pass";
+  print (so1);
+  
+  var so2 ="2      Urdu        100            82               Pass";
+  print (so2);
+  
+  var so3 ="3      Math        100            97               Pass";
+  print (so3);
+  
+  var so4 ="4      Physic      100            75               Pass";
+  print (so4);
+  
+  var so5 ="5      Chemistry   100            73               Pass";
+  print (so5);
+  
+  var so6 ="6  PakistanStudies 100            72               Pass";
+  print (so6);
+  
+  var so7 ="7  IslmicStudies   100            86               Pass";
+  print (so7);
+  
+  var so8 ="8  ComputerScience 100            82               Pass";
+  print (so8);
+  
+  var so9 ="9      Sindhi      100            64               Pass";
+  print (so9);
+  
+  var so10="10     Biology     100            58               Pass";
+  print (so10);
+   
+  var so11 ="11     Zoology     100            67               Pass";
+  print (so11);
+  
+  num result = (85+82+97+75+73+72+86+82+64+58+67)/1100*100;
+  print ("    Total Percentage is ${result}%");
+  if (40>result) print ("fail");
+  else if (90<=result) print ("     GRADE A++");
+  else if (80<=result) print ("     GRADE A+");
+  else if (70<=result) print ("     GRADE A");
+  else if (60<=result) print ("     GRADE B");
+  else if (50<=result) print ("     GRADE C");
+}
